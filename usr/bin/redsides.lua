@@ -1,4 +1,4 @@
-local event = require("event")
+local component, sides, colors, event = require("component"), require("sides"), require("colors"), require("event")
 moduTrak=0
   for i,j in ipairs(component.redstone.getBundledOutput()) do
     print(sides[i])
